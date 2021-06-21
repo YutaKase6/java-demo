@@ -16,6 +16,6 @@ public class DemoController {
         if ("true".equals(err)) {
             throw new RuntimeException("error");
         }
-        return "{\"message\":\"hello\"}";
+        return "{\"message\":\"hello\"}\n";
     }
 }
